@@ -1,5 +1,5 @@
-# Stake
-A simple module for automating Stake, this module avoids detection.
+# Stake-API
+A simple module for automating [Stake](https://stake.com/) Casino, this module avoids detection.
 
 ## Overview
 This is an informal module using the official API that allows you to transfer, withdraw, and get balance tips on Stake.
@@ -19,11 +19,11 @@ In the future, there will be methods to play original games such as Dice.
     * Get crypto currency and real money rates.
 
 ## Install
-`pip install -U stake`
+`pip install -U stake-api`
 
 ## Usage
 ```python
-from stake import Stake
+from stake_api import Stake
 
 stake = Stake('Your API Key.')
 
