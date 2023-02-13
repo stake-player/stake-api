@@ -30,7 +30,7 @@ stake = Stake('Your API Key.')
 response = stake.user_balances()
 for currency in response['data']['user']['balances']:
     print(f"{currency['available']['amount']} {currency['available']['currency'].upper()}")
- 
- 
- ## Legal
- This is not official on Twitter. Use at your own risk.
+```
+
+## Legal
+This is not official on Twitter. Use at your own risk.
